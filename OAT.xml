@@ -56,6 +56,12 @@ Note:If the text contains special characters, please escape them according to th
 -->
 <configuration>
     <oatconfig>
+	<licensefile></licensefile>
+	<policylist>
+            <policy name="projectPolicy" desc="">
+                <policyitem type="license" name="GPL" path=".*" desc="linux kernel adapter codes"/>
+            </policy>
+	</policylist>
 	<filefilterlist>
 		<filefilter name="defaultFilter" desc="Files not to check">
 			<filteritem type="filepath" name="linux-4.19/.*" desc="this dir only have auto-generated config files, do not check them."/>
