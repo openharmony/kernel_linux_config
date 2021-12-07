@@ -2586,7 +2586,7 @@ CONFIG_ARM_TIMER_SP804=y
 #
 # CONFIG_XILINX_VCU is not set
 # CONFIG_PM_DEVFREQ is not set
-# CONFIG_EXTCON is not set
+CONFIG_EXTCON=y
 # CONFIG_MEMORY is not set
 # CONFIG_IIO is not set
 CONFIG_PWM=y
