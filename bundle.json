@@ -1,0 +1,56 @@
+{
+    "name": "@ohos/kernel_linux_config",
+    "version": "",
+    "description": "Configuration files of Linux kernel 4.19 for the embedded devices running the standard system | 支持适用于标准系统的嵌入式设备的linux-4.19内核的配置文件",
+    "homePage": "https://gitee.com/openharmony",
+    "license": "Apache V2",
+    "repository": "https://gitee.com/openharmony/kernel_linux_config",
+    "domain": "os",
+    "language": "",
+    "publishAs": "code-segment",
+    "private": false,
+    "scripts": {},
+    "tags": [
+        "kernel"
+    ],
+    "keywords": [
+        "kernel",
+        "linux",
+        "config"
+    ],
+    "envs": [],
+    "dirs": [],
+    "author": {
+        "name": "",
+        "email": "",
+        "url": ""
+    },
+    "contributors": [
+        {
+            "name": "",
+            "email": "",
+            "url": ""
+        }
+    ],
+    "segment": {
+        "destPath": "kernel/linux/config"
+    },
+    "component": {
+        "name": "kernel_linux_config",
+        "subsystem": "",
+        "syscap": [],
+        "features": [],
+        "adapted_system_type": [],
+        "rom": "",
+        "ram": "",
+        "deps": {
+            "components": [],
+            "third_party": []
+        },
+        "build": {
+            "sub_component": [],
+            "inner_kits": [],
+            "test": []
+        }
+    }
+}
