@@ -5631,6 +5631,7 @@ CONFIG_DRIVERS_HDF_USB_F_GENERIC=y
 # CONFIG_MOST is not set
 # CONFIG_RK_FLASH is not set
 # CONFIG_RK_NAND is not set
+CONFIG_ACCESS_TOKENID=y
 # end of Device Drivers
 
 #
