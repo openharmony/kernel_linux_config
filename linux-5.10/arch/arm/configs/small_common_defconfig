@@ -2359,6 +2359,8 @@ CONFIG_RTC_I2C_AND_SPI=y
 # CONFIG_VIRT_DRIVERS is not set
 CONFIG_VIRTIO_MENU=y
 # CONFIG_VIRTIO_MMIO is not set
+# CONFIG_DMABUF_HEAPS is not set
+# CONFIG_DMABUF_HEAPS_SYSTEM is not set
 
 #
 # Microsoft Hyper-V guest support
