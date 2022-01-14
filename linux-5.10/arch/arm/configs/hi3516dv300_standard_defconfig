@@ -2501,6 +2501,7 @@ CONFIG_ION=y
 # CONFIG_GREYBUS is not set
 # CONFIG_PI433 is not set
 # CONFIG_MTK_MMC is not set
+CONFIG_ACCESS_TOKENID=y
 
 #
 # Gasket devices
