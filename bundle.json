@@ -1,7 +1,7 @@
 {
     "name": "@ohos/kernel_linux_config",
     "version": "",
-    "description": "Configuration files of Linux kernel 4.19 for the embedded devices running the standard system | 支持适用于标准系统的嵌入式设备的linux-4.19内核的配置文件",
+    "description": "Evolved from the open-source Linux kernel LTS 4.19.y and 5.10.y, the OpenHarmony Linux kernel has incorporated CVE patches and OpenHarmony features as the OpenHarmony common kernel baseline. Vendors can complete the kernel adaptation by applying the driver patches for boards.",
     "homePage": "https://gitee.com/openharmony",
     "license": "Apache V2",
     "repository": "https://gitee.com/openharmony/kernel_linux_config",
@@ -18,8 +18,8 @@
         "linux",
         "config"
     ],
-    "envs": [],
-    "dirs": [],
+    "envs": {},
+    "dirs": {},
     "author": {
         "name": "",
         "email": "",
