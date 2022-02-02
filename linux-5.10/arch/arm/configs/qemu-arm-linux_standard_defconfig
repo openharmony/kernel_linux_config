@@ -5383,6 +5383,7 @@ CONFIG_PM_OPP=y
 # CONFIG_COUNTER is not set
 # CONFIG_DRIVERS_HDF is not set
 # CONFIG_MOST is not set
+CONFIG_ACCESS_TOKENID=y
 # end of Device Drivers
 
 #
