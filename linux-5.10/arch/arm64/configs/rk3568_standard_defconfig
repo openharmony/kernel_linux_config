@@ -95,6 +95,9 @@ CONFIG_PSI=y
 # end of CPU/Task time and stats accounting
 
 CONFIG_CPU_ISOLATION=y
+CONFIG_SCHED_RUNNING_AVG=y
+CONFIG_CPU_ISOLATION_OPT=y
+CONFIG_SCHED_CORE_CTRL=y
 
 #
 # RCU Subsystem
