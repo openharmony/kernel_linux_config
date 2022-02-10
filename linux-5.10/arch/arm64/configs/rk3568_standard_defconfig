@@ -91,7 +91,7 @@ CONFIG_SCHED_WALT=y
 CONFIG_SCHED_THERMAL_PRESSURE=y
 # CONFIG_BSD_PROCESS_ACCT is not set
 # CONFIG_TASKSTATS is not set
-# CONFIG_PSI is not set
+CONFIG_PSI=y
 # end of CPU/Task time and stats accounting
 
 CONFIG_CPU_ISOLATION=y
