@@ -66,6 +66,9 @@ Note:If the text contains special characters, please escape them according to th
 		<filefilter name="defaultFilter" desc="Files not to check">
 			<filteritem type="filepath" name="linux-4.19/.*" desc="this dir only have auto-generated config files, do not check them."/>
 		</filefilter>
+		<filefilter name="defaultFilter" desc="Files not to check">
+			<filteritem type="filepath" name="linux-5.10/.*" desc="this dir only have auto-generated config files, do not check them."/>
+		</filefilter>
 	</filefilterlist>
     </oatconfig>
 </configuration>
