@@ -1,0 +1,78 @@
+#
+# General setup
+#
+CONFIG_FUTEX=y
+CONFIG_EPOLL=y
+CONFIG_EVENTFD=y
+# end of General setup
+
+CONFIG_MMU=y
+
+#
+# General architecture-dependent options
+#
+CONFIG_ARCH_HAS_FORTIFY_SOURCE=y
+CONFIG_STACKPROTECTOR=y
+CONFIG_STACKPROTECTOR_STRONG=y
+CONFIG_ARCH_HAS_ELF_RANDOMIZE=y
+# end of General architecture-dependent options
+
+CONFIG_BLOCK=y
+CONFIG_NET=y
+
+#
+# Networking options
+#
+CONFIG_PACKET=y
+CONFIG_INET=y
+CONFIG_NETFILTER=y
+# end of Networking options
+
+
+#
+# Device Drivers
+#
+#
+# Input device support
+#
+CONFIG_INPUT=y
+# end of Input device support
+CONFIG_RTC_CLASS=y
+#
+# RTC interfaces
+#
+#
+# HDF
+#
+CONFIG_DRIVERS_HDF=y
+CONFIG_DRIVERS_HDF_PLATFORM=y
+CONFIG_DRIVERS_HDF_PLATFORM_GPIO=y
+CONFIG_DRIVERS_HDF_PLATFORM_I2C=y
+CONFIG_DRIVERS_HDF_PLATFORM_PWM=y
+CONFIG_DRIVERS_HDF_PLATFORM_UART=y
+CONFIG_DRIVERS_HDF_PLATFORM_SPI=y
+CONFIG_DRIVERS_HDF_INPUT=y
+# end of HDF
+# end of Device Drivers
+
+#
+# File systems
+#
+CONFIG_HMDFS_FS=y
+CONFIG_HMDFS_FS_PERMISSION=y
+CONFIG_FILE_LOCKING=y
+#
+# Pseudo filesystems
+#
+CONFIG_PROC_FS=y
+# end of Pseudo filesystems
+# end of File systems
+
+#
+# Security options
+#
+CONFIG_SECURITY=y
+# end of Security options
+
+
+
