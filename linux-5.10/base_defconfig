@@ -74,5 +74,8 @@ CONFIG_PROC_FS=y
 CONFIG_SECURITY=y
 # end of Security options
 
-
-
+#
+#Security DMESG restrict
+#
+CONFIG_SECURITY_DMESG_RESTRICT=y
+# end of Security DMESG restrict
