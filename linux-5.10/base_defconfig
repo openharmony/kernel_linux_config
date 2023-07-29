@@ -79,3 +79,9 @@ CONFIG_SECURITY=y
 #
 CONFIG_SECURITY_DMESG_RESTRICT=y
 # end of Security DMESG restrict
+
+#Enhance SELinux's control over insmod
+#
+CONFIG_MODULE_SIG=y
+CONFIG_MODULE_SIG_FORCE=y
+#end of Enhance SELinux's control over insmod
