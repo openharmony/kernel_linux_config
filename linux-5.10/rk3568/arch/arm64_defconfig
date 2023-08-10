@@ -300,7 +300,6 @@ CONFIG_SETEND_EMULATION=y
 # ARMv8.1 architectural features
 #
 CONFIG_ARM64_HW_AFDBM=y
-CONFIG_ARM64_PAN=y
 CONFIG_AS_HAS_LSE_ATOMICS=y
 CONFIG_ARM64_VHE=y
 # end of ARMv8.1 architectural features
@@ -469,7 +468,6 @@ CONFIG_ARCH_WANT_COMPAT_IPC_PARSE_VERSION=y
 CONFIG_LTO=y
 CONFIG_LTO_CLANG=y
 CONFIG_LTO_CLANG_THIN=y
-CONFIG_CFI_CLANG=y
 CONFIG_CFI_CLANG_SHADOW=y
 CONFIG_HAVE_MOVE_PMD=y
 CONFIG_MODULES_USE_ELF_RELA=y
@@ -5633,8 +5631,6 @@ CONFIG_LSM="lockdown,yama,loadpin,safesetid,integrity,bpf,selinux"
 #
 # CONFIG_INIT_STACK_NONE is not set
 # CONFIG_INIT_STACK_ALL_PATTERN is not set
-CONFIG_INIT_STACK_ALL_ZERO=y
-CONFIG_INIT_ON_ALLOC_DEFAULT_ON=y
 # CONFIG_INIT_ON_FREE_DEFAULT_ON is not set
 # end of Memory initialization
 # end of Kernel hardening options
@@ -6096,6 +6092,5 @@ CONFIG_BLACKBOX_ROCKCHIP=y
 #
 # executable permission manager
 #
-CONFIG_SECURITY_XPM=y
 CONFIG_SECURITY_XPM_DEBUG=y
 # end of executable permission manager
