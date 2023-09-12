@@ -1239,3 +1239,9 @@ CONFIG_BLACKBOX=y
 CONFIG_HCK=y
 CONFIG_HCK_VENDOR_HOOKS=y
 # end of HCK
+
+#
+# unified collection device driver
+#
+CONFIG_UNIFIED_COLLECTION=y
+# end of unified collection device driver
