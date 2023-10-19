@@ -6097,3 +6097,9 @@ CONFIG_BLACKBOX_ROCKCHIP=y
 #
 CONFIG_SECURITY_XPM_DEBUG=y
 # end of executable permission manager
+
+#
+# Hide excutable memory address of process manager
+#
+CONFIG_HIDE_MEM_ADDRESS=y
+# end hide excutable memory address of process manager
