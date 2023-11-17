@@ -6103,3 +6103,9 @@ CONFIG_SECURITY_XPM_DEBUG=y
 #
 CONFIG_HIDE_MEM_ADDRESS=y
 # end hide excutable memory address of process manager
+
+#
+# container escape detection
+#
+CONFIG_SECURITY_CONTAINER_ESCAPE_DETECTION=y
+# end of container escape detection
