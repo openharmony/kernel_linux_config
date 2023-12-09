@@ -6099,13 +6099,25 @@ CONFIG_SECURITY_XPM_DEBUG=y
 # end of executable permission manager
 
 #
+# container escape detection
+#
+CONFIG_SECURITY_CONTAINER_ESCAPE_DETECTION=y
+# end of container escape detection
+
+#
+# Enable memory protection for render process
+#
+CONFIG_MEMORY_SECURITY=y
+# end enable memory protection for render process
+
+#
 # Hide excutable memory address of process manager
 #
 CONFIG_HIDE_MEM_ADDRESS=y
 # end hide excutable memory address of process manager
 
 #
-# container escape detection
+# jit memory control
 #
-CONFIG_SECURITY_CONTAINER_ESCAPE_DETECTION=y
-# end of container escape detection
+CONFIG_JIT_MEM_CONTROL=y
+# end of jit memory control
