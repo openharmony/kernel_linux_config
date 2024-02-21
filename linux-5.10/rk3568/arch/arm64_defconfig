@@ -6132,3 +6132,9 @@ CONFIG_HIDE_MEM_ADDRESS=y
 #
 CONFIG_JIT_MEM_CONTROL=y
 # end of jit memory control
+
+#
+# Enable hdf driver for usbnet
+#
+CONFIG_DRIVERS_HDF_USB_NET_ADAPTER=y
+#end hdf driver for usbnet
