@@ -161,6 +161,17 @@ CONFIG_DRIVERS_HDF_LCDKIT=y
 #
 
 #
+# begin of support EC20 4G module USB serial nodes
+#
+CONFIG_USB_SERIAL=y
+CONFIG_USB_SERIAL_OPTION=y
+CONFIG_USB_SERIAL_QUALCOMM=y
+CONFIG_USB_SERIAL_QUECTEL_SUPPORT=y
+CONFIG_USB_ACM=y
+CONFIG_USB_WDM=y
+#
+# end of support EC20 4G module USB serial nodes
+#
 # begin of support NCA9555
 #
 CONFIG_GPIO_NCA9555=y
